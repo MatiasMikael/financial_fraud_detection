@@ -1,0 +1,14 @@
+# Ignore everything by default in 2_raw_data and 3_cleaned_data
+2_raw_data/*
+!2_raw_data/.gitkeep
+
+3_cleaned_data/*
+!3_cleaned_data/.gitkeep
+
+# Ignore virtual environment
+venv/
+
+# Ignore everything by default in 4_results except .png and README.md
+4_results/*
+!4_results/*.png
+!4_results/README.md
